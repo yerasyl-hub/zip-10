@@ -1,0 +1,52 @@
+.box{
+    width: 800px;
+    height: 300px;
+    display: grid;
+    grid-template-columns: 400px 400px;
+    background-color: white;
+
+}
+body{
+    background-color: #edf2f8;
+    display: grid;
+    place-content: center;
+}
+img{
+    width: 400px;
+    height: 300px;
+}
+.icon{
+    width: 50px;
+    height: 50px;
+    margin-top: 7px;
+    border-radius: 50%;
+}
+
+.txt{
+    display: grid;
+    place-content: center;
+    grid-template-rows: 50px 50px;
+
+}
+.profile{
+    display: grid;
+    grid-template-columns: 60px 150px;
+}
+.right{
+    padding: 30px;
+}
+p2, h2{
+    color: rgb(118, 118, 118);
+}
+p1{
+    color: rgb(46, 46, 46);
+}
+.share{
+    width: 20px ;
+    height: 20px;
+    background-color: white;
+}
+.footer{
+    display: grid;
+    grid-template-columns: auto auto;
+}
